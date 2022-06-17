@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+#app{
+    display: flex;
+    margin: 15vh auto;
+    background-color: white;
+    height: 55vh;
+    width: 20vw;
+    padding: 20px 5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px gray ;
+}
+#todo-title{
+    font-size: 16pt;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+#todo-subtitle{
+    font-size:12pt;
+}
+#todo-input{
+    width: 200px;
+}
+#todo-submit{
+
+}
+
+#todo-output{
+    width:300px
+}
